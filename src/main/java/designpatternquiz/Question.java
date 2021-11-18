@@ -1,9 +1,10 @@
 package designpatternquiz;
 
 public class Question {
-	//question is composed of one right answers; 3 wrong answers
-	//wrong answers stored in array of strings
-	
+	/**
+	 * question is composed of one right answers; 3 wrong answers
+	 * wrong answers stored in array of strings
+	 */
 	private String question;
 	private String rightAnswer;
 	private String[] wrongAnswers;
