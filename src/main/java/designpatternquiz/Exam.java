@@ -55,9 +55,9 @@ public class Exam {
 					});
 		allQuestions[8] = new Question("Which statement is true about Structural Design Patterns?",
 				"They focus on the instantiation of objects and allow decoupling a system from the way its objects are instantiated.",
-				new String[] { "They focus on the composition of classes and objects to design larger structures.",
-						"They focus on the communication between objects and on the assignment of responsibilities between objects",
-						"They focus on hiding data from other objects, to maintain abstraction.", "wrong4" });
+				new String[] { "It focuses on the composition of classes and objects to design larger structures.",
+						"It focuses on the communication between objects and on the assignment of responsibilities between objects",
+						"It focuses on hiding data from other objects, to maintain abstraction.", "It enforce the model-view-controller." });
 		allQuestions[9] = new Question("The Iteratoor Design Pattern is:", "Behavioural",
 				new String[] { "Structural", "None of these choices", "Interactive", "They include the momento and observer pattern." });
 
