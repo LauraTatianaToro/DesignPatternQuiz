@@ -2,8 +2,8 @@ package designpatternquiz;
 
 public class Question {
 	/**
-	 * question is composed of one right answers; 3 wrong answers
-	 * wrong answers stored in array of strings
+	 * question is composed of one right answers; 3 wrong answers wrong answers
+	 * stored in array of strings
 	 */
 	private String question;
 	private String rightAnswer;
@@ -18,7 +18,7 @@ public class Question {
 		}
 	}
 
-	//getters and setters
+	// getters and setters
 
 	public String getQuestion() {
 		return question;
@@ -43,7 +43,5 @@ public class Question {
 	public void setWrongAnswers(String[] wrongAnswers) {
 		this.wrongAnswers = wrongAnswers;
 	}
-	
-	
 
 }
