@@ -46,7 +46,7 @@ public class Exam {
 				new String[] { "An Interactive Design Pattern", "A Structural Design Pattern",
 						"A Behavioural Design Pattern", "Not a Design Pattern" });
 		allQuestions[6] = new Question("What is a Singleton?", "A Creational Design Patternr",
-				new String[] { "An Interactive Design Pattern", "An Interactive Design Pattern", "It is not a design pattern.", "None of these." });
+				new String[] { "An Interactive Design Pattern", "An Behaviourdal Design Pattern", "It is not a design pattern.", "None of these." });
 		allQuestions[7] = new Question("What is the difference between Abstract Factory and Factory Pattern?", "Abstract Factory creates families of objects that are related while factory just instantiates objects of a sub-class."
 				,
 				new String[] { "Abstract Factory is just the Composite Design pattern.", 
